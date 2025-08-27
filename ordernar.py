@@ -1,5 +1,14 @@
-desordenado = [15,2,6,6,6,9,7,10,1,24,12,12,15,6,7,8,7,6,9,20]
 resultado = []
+desordenado = []
+
+arquivo5000 = open('5000.txt', 'r')
+conteudo = arquivo5000.read()
+for line in conteudo:
+    if line != '\n':
+        desordenado.append(line)
+
+print(desordenado)
+print()
 
 #Enquanto desordenado não estiver vazio
 while len(desordenado) > 0:
