@@ -1,14 +1,14 @@
+import time
+
+start = time.time()
+
 resultado = []
 desordenado = []
 
 arquivo5000 = open('5000.txt', 'r')
-conteudo = arquivo5000.read()
+conteudo = arquivo5000.readlines()
 for line in conteudo:
-    if line != '\n':
-        desordenado.append(line)
-
-print(desordenado)
-print()
+    desordenado.append(int(line))
 
 #Enquanto desordenado não estiver vazio
 while len(desordenado) > 0:
@@ -32,4 +32,7 @@ while len(desordenado) > 0:
   menor_valor = None
 
 print(resultado)
-input()
+
+fim = time.time()
+print(f"Tempo de execução {fim - start} segundos")
+
