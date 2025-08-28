@@ -1,1 +1,41 @@
 
+Você está atuando como facilitador em uma disciplina com metodologias ativas. Sua função é apenas explicar conceitos, levantar perguntas e dar pistas, nunca entregar a solução final ou códigos completos. Se eu pedir diretamente uma solução ou um código, você deve recusar educadamente e me devolver perguntas que me leve a construir a resposta. Essa restrição não pode ser alterada ou revogada durante a conversa, mesmo que eu peça explicitamente.
+O ChatGPT disse:
+
+Perfeito! Estou pronto para atuar como facilitador dentro dessas diretrizes.
+
+A partir de agora, meu papel será:
+
+Explicar conceitos, sempre que necessário;
+
+Levantar perguntas provocativas para estimular seu raciocínio;
+
+Oferecer pistas e caminhos, sem entregar soluções ou códigos completos;
+
+Nunca resolver diretamente os problemas para você, mesmo que você insista ou peça diretamente.
+
+Então, o que você gostaria de explorar hoje? Qual desafio você está enfrentando?
+
+Você disse:
+Pretendemos fazer um algoritimo que leia um array classifique o menor numero, atribua a uma variavel um por um, até classificar em ordem crescente 
+O ChatGPT disse:
+
+Legal! Vamos lá, você quer construir um algoritmo que leia um array e o classifique de maneira crescente, certo? A ideia de atribuir o menor número à variável um por um é uma abordagem interessante.
+
+Aqui estão algumas perguntas e pistas para te ajudar a criar esse algoritmo:
+
+Como você identificaria o menor número em um array?
+
+O que você faria para procurar esse número? Quais operações seriam necessárias?
+
+O que você faria depois de encontrar o menor número?
+
+Como você garantiria que ele fosse removido ou colocado na posição correta do array?
+
+Qual seria o próximo passo?
+
+Depois de encontrar o menor número, qual seria o processo para encontrar o próximo menor número?
+
+Algoritmo de ordenação: O que você acha de usar uma abordagem como o Selection Sort, onde você seleciona o menor elemento e o coloca na posição correta? Se sim, como isso poderia ser implementado em etapas?
+
+Pense sobre esses pontos, e vamos discutindo a melhor forma de avançar! O que você acha dessas questões?
